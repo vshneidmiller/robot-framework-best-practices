@@ -32,6 +32,18 @@ test_parallel_test_level_split:
            deactivate \
     )
 
+.PHONY: test_serial_and_parallel
+test_serial_and_parallel:
+	( \
+           source ~/robot_virtualenv/bin/activate; \
+           pip install -Ur requirements.txt; \
+           robot --outputdir results/robot/ --exclude exclude robot/tests/tags.robot; \
+           pabot --processes 10 --outputdir results/pabot/ --exclude exclude robot/tests/parallel/; \
+           rebot --output rebot/output.xml --log rebot/log.html --report rebot/report.html results/robot/output.xml results/pabot/output.xml; \
+           open	rebot/report.html; \
+           deactivate \
+    )   
+
 #https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#randomizing-execution-order
 #The test execution order can be randomized using option --randomize
 test_parallel_randomize:
