@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "age": {
+        "type": "string"
+      },
+      "education": {
+        "type": "object",
+        "properties": {
+          "school": {
+            "type": "string"
+          },
+          "degree": {
+            "type": "string"
+          },
+          "major": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "school",
+          "degree",
+          "major"
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "age",
+      "education"
+    ]
+  }
