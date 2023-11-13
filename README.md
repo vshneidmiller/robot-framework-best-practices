@@ -35,19 +35,4 @@ Instructions for setting up the project, running tests, and using the resources.
 ### Prerequisites
 - Python 3.x
 - Robot Framework
-- Additional dependencies (if any)
 
-### Installation
-Detailed steps to set up the environment.
-
-### Running Tests
-Command-line instructions to execute tests.
-
-## Contributing
-Guidelines for contributing to this repository.
-
-## License
-This project is licensed under [LICENSE NAME] - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Credits to contributors and useful resources.
