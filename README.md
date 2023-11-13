@@ -2,9 +2,12 @@
 
 ## Overview
 This repository provides a set of best practices, libraries, and test examples for Robot Framework. It is designed to help developers and testers effectively utilize Robot Framework for automation testing.
-Useful links: How to write good tests: https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst
-Robot Framework User Guide: https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#test-case-name-and-documentation
 
+Useful links: 
+How to write good tests: 
+https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst
+Robot Framework User Guide: 
+https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#test-case-name-and-documentation
 
 ## Structure
 The repository is organized into several key directories:
